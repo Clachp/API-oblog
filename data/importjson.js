@@ -25,7 +25,7 @@ const importData = async () => {
         await client.query('INSERT INTO post (slug, title, excerpt, content, category_id) VALUES ($1, $2, $3, $4, $5)',
         [post.slug, post.title, post.excerpt, post.content, categoryId]); 
     }
-    console.log(posts);
+    //console.log(posts);
     client.end();
 };
 

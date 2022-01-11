@@ -40,7 +40,7 @@ const postsController = {
 
     getpostsByCategory: async (request, response) => {
         const catId = Number(request.params.id);
-        const posts = await Post.findbyCategory(catId); 
+        const posts = await Post.findByCategory(catId); 
         response.json(posts);
     },
 

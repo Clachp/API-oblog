@@ -28,7 +28,7 @@ class Category {
     //SELECT => méthode statique 
     static async findAll() {
         // Desctructuration : je ne récupère qu'une partie du résultat de la requête qui m'intéresse 
-        const {rows} = await client.query('SELECT * FROM post'); 
+        const {rows} = await client.query('SELECT * FROM category'); 
         return rows.map(row => new Category(row)); 
     }
 }
