@@ -1,0 +1,26 @@
+CREATE DATABASE BLOG;
+\c BLOG;
+
+CREATE TABLE CATÉGORIE (
+  route VARCHAR(42),
+  label VARCHAR(42),
+  PRIMARY KEY (route)
+);
+
+CREATE TABLE CONTIENT (
+  catégorie VARCHAR(42),
+  route VARCHAR(42),
+  PRIMARY KEY (catégorie, route)
+);
+
+CREATE TABLE ARTICLE (
+  catégorie VARCHAR(42),
+  slug VARCHAR(42),
+  titre VARCHAR(42),
+  extrait VARCHAR(42),
+  contenu VARCHAR(42),
+  PRIMARY KEY (catégorie)
+);
+
+ALTER TABLE CONTIENT ADD FOREIGN KEY (route) REFERENCES CATÉGORIE (route);
+ALTER TABLE CONTIENT ADD FOREIGN KEY (catégorie) REFERENCES ARTICLE (catégorie);

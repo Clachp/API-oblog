@@ -1,0 +1,4 @@
+PG_URL="postgresql://user:password@localhost/database"
+PORT=
+
+"start": "node data/importjson.js; node index.js"

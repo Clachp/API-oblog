@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="198" height="229" view_box="0 0 198 229"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Fri, 10 Dec 2021 04:40:32</desc>
+
+<rect id="frame" x="0" y="0" width="198" height="229" fill="#f5f5f5" stroke="none" stroke-width="0"/>
+
+<!-- Association CONTIENT -->
+<line x1="155" y1="68" x2="50" y2="68" stroke="#bf812d" stroke-width="2"/>
+<text x="94" y="85.0" fill="#01665e" font-family="Verdana" font-size="12">1,N</text>
+<line x1="50" y1="186" x2="50" y2="68" stroke="#bf812d" stroke-width="2"/>
+<text x="55.0" y="144" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-CONTIENT">
+	<path d="M 75 43 a 14 14 90 0 1 14 14 V 68 h -78 V 57 a 14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+	<path d="M 89 68.0 v 11 a 14 14 90 0 1 -14 14 H 25 a 14 14 90 0 1 -14 -14 V 68.0 H 78" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+	<rect x="11" y="43" width="78" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+	<line x1="11" y1="68" x2="89" y2="68" stroke="#bf812d" stroke-width="1"/>
+	<text x="18" y="60.7" fill="#000000" font-family="Verdana" font-size="12">CONTIENT</text>
+</g>
+
+<!-- Entity CATÉGORIE -->
+<g id="entity-CATÉGORIE">
+	<g id="frame-CATÉGORIE">
+		<rect x="9" y="152" width="82" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<rect x="9" y="177.0" width="82" height="43" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="9" y="152" width="82" height="68" fill="none" stroke="#35978f" stroke-width="2"/>
+		<line x1="9" y1="177" x2="91" y2="177" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="14" y="169.7" fill="#000000" font-family="Verdana" font-size="12">CATÉGORIE</text>
+	<text x="14" y="194.8" fill="#000000" font-family="Verdana" font-size="12">route</text>
+	<line x1="14" y1="197" x2="47" y2="197" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="211.8" fill="#000000" font-family="Verdana" font-size="12">label</text>
+</g>
+
+<!-- Entity ARTICLE -->
+<g id="entity-ARTICLE">
+	<g id="frame-ARTICLE">
+		<rect x="121" y="9" width="68" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<rect x="121" y="34.0" width="68" height="93" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="121" y="9" width="68" height="118" fill="none" stroke="#35978f" stroke-width="2"/>
+		<line x1="121" y1="34" x2="189" y2="34" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="128" y="26.7" fill="#000000" font-family="Verdana" font-size="12">ARTICLE</text>
+	<text x="126" y="51.7" fill="#000000" font-family="Verdana" font-size="12">catégorie</text>
+	<line x1="126" y1="54" x2="183" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="126" y="68.8" fill="#000000" font-family="Verdana" font-size="12">slug</text>
+	<text x="126" y="85.8" fill="#000000" font-family="Verdana" font-size="12">titre</text>
+	<text x="126" y="102.8" fill="#000000" font-family="Verdana" font-size="12">extrait</text>
+	<text x="126" y="119.8" fill="#000000" font-family="Verdana" font-size="12">contenu</text>
+</g>
+</svg>

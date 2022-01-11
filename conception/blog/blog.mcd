@@ -1,0 +1,5 @@
+CONTIENT, 1N ARTICLE, 0N CATÉGORIE
+ARTICLE: catégorie, slug, titre, extrait, contenu
+
+CATÉGORIE: route, label
+:

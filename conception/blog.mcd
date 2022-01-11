@@ -1,0 +1,13 @@
+CONTIENT, 1N ARTICLE, 0N CATÉGORIE
+ARTICLE: catégorie, slug, titre, extrait, contenu
+
+CATÉGORIE: route, label
+:
+
+ATTENTION ! Dans le fichier JSON, la propriété categroy ne prend qu'une string.
+Si un article pouvait prendre plusisieurs catagories, on les aurait stockées dans un 
+TABLEAU !
+Donc, un article contient une seule catégorie => 
+CONTIENT, 11 ARTICLE, 0N CATÉGORIE
+
+Donc clé étrangère chez la table qui a la cardi max à 1

@@ -1,0 +1,13 @@
+@host=http://localhost:4400/v1
+
+GET {{host}}/
+
+GET {{host}}/posts
+
+GET {{host}}/posts/2
+
+GET {{host}}/posts/category/2
+
+GET {{host}}/categories
+
+POST {{host}}/posts

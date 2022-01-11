@@ -1,0 +1,5 @@
+%syntax-version=1.0.0
+%project=oblog-sqitch
+
+init 2021-12-10T13:14:00Z ClaireC <claire.chapon1105@gmail.com> # premiere migration
+correction 2021-12-13T10:19:04Z ClaireC <claire.chapon1105@gmail.com> # correction BDD
